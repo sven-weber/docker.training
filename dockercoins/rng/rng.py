@@ -20,11 +20,7 @@ def index():
 
 @app.route("/<int:how_many_bytes>")
 def rng(how_many_bytes):
-    # Simulate a little bit of delay
-    time.sleep(0.1)
-    return Response(
-        os.read(urandom, how_many_bytes),
-        content_type="application/octet-stream")
+    return Response(os.read(urandom, how_many_bytes), content_type="application/octet-stream")
 
 
 if __name__ == "__main__":

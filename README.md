@@ -14,5 +14,6 @@ In order to build the source, python and python-flask need to be installed.
 On a linux system run the following commands: 
 
 ```shell
-sudo apt-get install python3 python-flask
+sudo apt-get install python3 python3-pip
+pip install Flask
 ´´´

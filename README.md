@@ -15,5 +15,5 @@ On a linux system run the following commands:
 
 ```shell
 sudo apt-get install python3 python3-pip
-pip install Flask
-´´´
+pip install Flask redis requests
+```
